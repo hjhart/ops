@@ -14,13 +14,10 @@ launchctl load ~/Library/LaunchAgents/org.nginx.nginx.plist
 scp _rvmruby /usr/local/bin/
 
 usage: 
-_rvmruby ruby-1.9.2-p290@client_portal unicorn -c config/unicorn.rb
+_rvmruby ruby-1.9.2-p290@rotten_pirate unicorn -c config/unicorn.rb
 
+## Transmission file completed
 
-
-## nginx plist
-
-
-1812 
-
-1812 1813 1814 1815 1816 1817 1818 1819 1820 1821 1822 1823 
+put a ~/.prowl file in your home directory with your prowl api key in it
+sudo mkdir -p /var/log/transmission
+sudo chown james /var/log/transmission
