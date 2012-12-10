@@ -1,0 +1,9 @@
+#!/bin/sh
+# usage: _rvmruby <ruby version> [ruby arguments]
+
+if [[ -s ~/.rvm/scripts/rvm ]]; then
+  . ~/.rvm/scripts/rvm
+fi
+ruby_version=$1; shift
+rvm $ruby_version
+exec ruby "$@"

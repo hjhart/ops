@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+                       "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key><string>unicorn.the_rotten_pirate</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>GEM_HOME</key><string>/Users/james/.rvm/gems/ruby-1.9.2-p290@rotten_pirate</string>
+    </dict>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/_rvmruby</string>
+      <string>ruby-1.9.2-p290@rotten_pirate</string>
+      <string>/Users/james/.rvm/gems/ruby-1.9.2-p290@rotten_pirate/bin/unicorn_rails</string>
+      <string>-c</string>
+      <string>/Users/james/Sites/the_rotten_pirate/current</string>
+      <string>-E</string>
+      <string>production</string>
+      <string>-D</string>
+    </array>
+    <key>KeepAlive</key><true/>
+    <key>StandardErrorPath</key><string>/var/log/unicorn/unicorn.stderr.log</string>
+    <key>StandardOutPath</key><string>/var/log/unicorn/unicorn.stdout.log</string>
+    <key>LaunchOnlyOnce</key><true/>
+    <key>RunAtLoad</key><true/>
+  </dict>
+</plist>
