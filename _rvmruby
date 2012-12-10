@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash --login
 # usage: _rvmruby <ruby version> [ruby arguments]
 
 if [[ -s ~/.rvm/scripts/rvm ]]; then

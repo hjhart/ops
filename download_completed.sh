@@ -14,7 +14,7 @@ log = Logger.new(file_to_log_to)
 
 log.debug "Attempting to log successful download of #{torrent_name} with API key #{api_key}"  
 
-notification = Prowly::Notification.new(:apikey => api_key, :application => "Transmission", :description => "#{torrent_name} has finished downloading!") 
+notification = Prowly::Notification.new(:apikey => api_key, :application => "Transmission", :event => "Download completed", :description => "#{torrent_name} finished at #{Time.now}") 
 result = Prowly.notify(notification)
 
 if(result.succeeded?)

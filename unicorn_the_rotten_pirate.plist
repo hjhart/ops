@@ -12,9 +12,9 @@
     <array>
       <string>/usr/local/bin/_rvmruby</string>
       <string>ruby-1.9.2-p290@rotten_pirate</string>
-      <string>/Users/james/.rvm/gems/ruby-1.9.2-p290@rotten_pirate/bin/unicorn_rails</string>
+      <string>/Users/james/.rvm/gems/ruby-1.9.2-p290@rotten_pirate/bin/unicorn</string>
       <string>-c</string>
-      <string>/Users/james/Sites/the_rotten_pirate/current</string>
+      <string>/Users/james/Sites/the_rotten_pirate/current/config/unicorn.rb</string>
       <string>-E</string>
       <string>production</string>
       <string>-D</string>
