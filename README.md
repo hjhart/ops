@@ -21,3 +21,8 @@ _rvmruby ruby-1.9.2-p290@rotten_pirate unicorn -c config/unicorn.rb
 put a ~/.prowl file in your home directory with your prowl api key in it
 sudo mkdir -p /var/log/transmission
 sudo chown james /var/log/transmission
+
+## crontab
+
+sudo mkdir -p /var/log/cron/
+sudo chown james /var/log/cron/
