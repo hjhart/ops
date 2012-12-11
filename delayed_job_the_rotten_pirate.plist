@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+                       "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key><string>delayed_job.the_rotten_pirate</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>GEM_HOME</key><string>/Users/james/.rvm/gems/ruby-1.9.2-p290@rotten_pirate</string>
+    </dict>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/_rvmruby</string>
+      <string>ruby-1.9.2-p290@rotten_pirate</string>
+      <string>/Users/james/Sites/the_rotten_pirate/current/script/delayed_job</string>
+      <string>run</string>
+    </array>
+    <key>KeepAlive</key><true/>
+    <key>StandardErrorPath</key><string>/var/log/delayed_job/the_rotten_pirate.stderr.log</string>
+    <key>StandardOutPath</key><string>/var/log/delayed_job/the_rotten_pirate.stdout.log</string>
+    <key>LaunchOnlyOnce</key><true/>
+    <key>RunAtLoad</key><true/>
+  </dict>
+</plist>

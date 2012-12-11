@@ -1,4 +1,4 @@
-0 9 * * * /bin/bash -l -c 'cd ~/Sites/the_rotten_pirate/current && bundle exec rake execute --silent >> /var/log/cron/the_rotten_pirate.log 2>&1'
+0 9 * * * /bin/bash -l -c 'cd ~/Sites/the_rotten_pirate/current && _rvmruby ruby-1.9.2-p290@rotten_pirate /Users/james/.rvm/gems/ruby-1.9.2-p290@rotten_pirate/bin/bundle exec rake execute  >> /var/log/cron/the_rotten_pirate.log 2>&1'
 0,5,10,15,20,25,30,35,40,45,50,55 * * * * /bin/bash -l -c 'cd /Users/james/Sites/craigs_warn && ruby warner.rb >> /var/log/cron/craigs_warner.log 2>&1'
 0 0 1,8,15,22 * * /bin/bash -l -c '/Users/jhart/Sites/rsync_backup/mac_mini-backup.sh >> /var/log/cron/mac_mini_backup.log 2>&1' 
 #0,30 * * * * /bin/bash -l -c 'cd /Users/james/Sites/craigs_warn && ruby apt_warner.rb >> /var/log/cron/apt_warner.log 2>&1'
